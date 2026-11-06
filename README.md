@@ -347,7 +347,7 @@ Part of **52 Weeks of Security**: one new cybersecurity project every week.
 - [x] **Week 3:** [MimicLens](https://github.com/RavinduChamika1/mimiclens)
 - [x] **Week 5:** [VetBinary](https://github.com/RavinduChamika1/VetBinary)
 - [x] **Weeks 4-6:** CognoSieve (formerly BreachSieve): web DAST + LLM red-teaming
-- [x] **Week 7:** CognoSieve: adversary emulation via MITRE Caldera, ATT&CK mapping, attack surface map
+- [x] **Week 7:** CognoSieveRed: Unified Cyber Assessment Platform: DAST, LLM Security & red-teaming & Adversary Emulation
 - [ ] More coming every week
 
 Already noted in the codebase as next steps: dynamic Caldera ability profiles pulled from live MITRE ATT&CK CTI feeds, a bi-directional purple-team feedback loop correlating blue-team detection logs against Caldera technique timestamps, and automated promptfoo plugin generation derived from live web recon findings.
