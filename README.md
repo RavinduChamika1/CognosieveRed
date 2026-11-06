@@ -2,7 +2,7 @@
   <img src="assets/logo.svg" alt="CognoSieve" width="170">
 </p>
 
-<h1 align="center">CognoSieve</h1>
+<h1 align="center">CognoSieveRed</h1>
 <p align="center"><b>Unified Cyber Assessment Platform: DAST, LLM Security &amp; red-teaming & Adversary Emulation</b></p>
 
 <p align="center">
