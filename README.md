@@ -276,13 +276,6 @@ cognosieve/
 │   │   ├── scoring_engine.py
 │   │   └── zap_service.py
 │   └── tests/
-│       ├── test_api_endpoints.py
-│       ├── test_e2e_workflow.py
-│       ├── test_llm_redteam.py
-│       ├── test_redteam_caldera.py  # NEW: 7 tests
-│       ├── test_report_service.py
-│       ├── test_scope_manager.py
-│       └── test_scoring_and_mapping.py
 ├── frontend/
 │   └── src/
 │       ├── App.jsx
