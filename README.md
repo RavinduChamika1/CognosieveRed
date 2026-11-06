@@ -3,7 +3,7 @@
 </p>
 
 <h1 align="center">CognoSieve</h1>
-<p align="center"><b>Unified Cyber Assessment Platform: DAST, LLM Security &amp; Adversary Emulation</b></p>
+<p align="center"><b>Unified Cyber Assessment Platform: DAST, LLM Security &amp; red-teaming & Adversary Emulation</b></p>
 
 <p align="center">
   <img alt="Python" src="https://img.shields.io/badge/Backend-FastAPI%20(Python%203.14)-009688?logo=fastapi&logoColor=white">
