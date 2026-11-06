@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100%" height="100%">
+  <defs>
+    <linearGradient id="shieldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6" />
+      <stop offset="50%" stop-color="#6366f1" />
+      <stop offset="100%" stop-color="#ec4899" />
+    </linearGradient>
+    <linearGradient id="coreGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06b6d4" />
+      <stop offset="100%" stop-color="#3b82f6" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Outer Hex Shield -->
+  <polygon points="50,6 88,24 88,68 50,94 12,68 12,24" 
+           fill="#0f172a" 
+           stroke="url(#shieldGrad)" 
+           stroke-width="3.5" 
+           stroke-linejoin="round" />
+
+  <!-- Inner Mesh Grid / Sieve Lattice -->
+  <path d="M50,18 L76,32 L76,62 L50,82 L24,62 L24,32 Z" 
+        fill="none" 
+        stroke="#1e293b" 
+        stroke-width="1.5" />
+
+  <!-- Sieve Lines -->
+  <line x1="30" y1="40" x2="70" y2="40" stroke="#334155" stroke-width="1.2" stroke-dasharray="2,2" />
+  <line x1="26" y1="50" x2="74" y2="50" stroke="#334155" stroke-width="1.2" stroke-dasharray="2,2" />
+  <line x1="32" y1="60" x2="68" y2="60" stroke="#334155" stroke-width="1.2" stroke-dasharray="2,2" />
+  <line x1="50" y1="20" x2="50" y2="80" stroke="#334155" stroke-width="1.2" stroke-dasharray="2,2" />
+
+  <!-- Cognitive Neural Core Nodes -->
+  <line x1="50" y1="34" x2="36" y2="52" stroke="url(#coreGrad)" stroke-width="2" />
+  <line x1="50" y1="34" x2="64" y2="52" stroke="url(#coreGrad)" stroke-width="2" />
+  <line x1="36" y1="52" x2="50" y2="68" stroke="url(#shieldGrad)" stroke-width="2" />
+  <line x1="64" y1="52" x2="50" y2="68" stroke="url(#shieldGrad)" stroke-width="2" />
+  <line x1="36" y1="52" x2="64" y2="52" stroke="url(#coreGrad)" stroke-width="2" />
+
+  <!-- Radar / Adversary Focal Eye -->
+  <circle cx="50" cy="52" r="14" fill="none" stroke="#ef4444" stroke-width="1.8" opacity="0.85" filter="url(#glow)" />
+  <circle cx="50" cy="52" r="4.5" fill="#f43f5e" />
+
+  <!-- Glowing Sensor Nodes -->
+  <circle cx="50" cy="34" r="3.5" fill="#38bdf8" filter="url(#glow)" />
+  <circle cx="36" cy="52" r="3.5" fill="#818cf8" filter="url(#glow)" />
+  <circle cx="64" cy="52" r="3.5" fill="#818cf8" filter="url(#glow)" />
+  <circle cx="50" cy="68" r="3.5" fill="#f43f5e" filter="url(#glow)" />
+</svg>
